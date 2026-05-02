@@ -1,0 +1,18 @@
+# Example environment variables for local development
+# Copy this file to .dev.vars and fill in your actual values
+# DO NOT commit .dev.vars to git!
+
+# Your Telegram Bot Token from @BotFather
+TELEGRAM_BOT_TOKEN=your_bot_token_here
+
+# Service account email from Google Cloud JSON file
+GOOGLE_SERVICE_ACCOUNT_EMAIL=your-service-account@project-id.iam.gserviceaccount.com
+
+# Private key from Google Cloud JSON file (include BEGIN/END markers)
+GOOGLE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYOUR_PRIVATE_KEY_HERE\n-----END PRIVATE KEY-----\n"
+
+# Your Google Sheet ID (from the URL)
+GOOGLE_SHEET_ID=your_sheet_id_here
+
+# Optional: Sheet name (defaults to "Sheet1")
+GOOGLE_SHEET_NAME=Sheet1

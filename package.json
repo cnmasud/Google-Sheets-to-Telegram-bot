@@ -1,0 +1,23 @@
+{
+  "name": "telegram-sheets-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot integrated with Google Sheets on Cloudflare Workers",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "telegram",
+    "google-sheets",
+    "cloudflare-workers",
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}

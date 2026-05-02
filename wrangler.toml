@@ -1,0 +1,14 @@
+name = "telegram-sheets-bot"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+# account_id = ""
+
+# Environment variables (configure these via `wrangler secret put`)
+# TELEGRAM_BOT_TOKEN - Your Telegram bot token from BotFather
+# GOOGLE_SERVICE_ACCOUNT_EMAIL - Service account email
+# GOOGLE_PRIVATE_KEY - Service account private key
+# GOOGLE_SHEET_ID - Your Google Sheet ID
+# ADMIN_TELEGRAM_ID - Your Telegram user ID (optional, for admin-only mode)
+
+[vars]
+# Non-sensitive config can go here

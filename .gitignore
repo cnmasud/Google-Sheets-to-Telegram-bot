@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Wrangler
+.wrangler/
+dist/
+worker/
+
+# Environment
+.env
+.dev.vars
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cloudflare Wrangler
+.wrangler/
+.dev.vars
+wrangler.state/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Google credentials (never commit these!)
+*-service-account.json
+credentials.json
+token.json
+*.pem
+*.key
